@@ -1,0 +1,350 @@
+/* Default CSS */
+a{
+	text-decoration: none;
+}
+.navbar{
+	padding: 0px 50px !important;
+}
+
+/*Logo Navbar*/
+.navbar-brand {
+	padding: 0px !important;
+}
+.navbar-brand>img {
+	max-height:60px;
+	max-width: 100%;
+}
+
+/*Path del sito*/
+.navbar-path{
+	margin-left: auto;
+}
+.navbar-path>li{
+	padding:0px 15px;
+}
+
+/*Icone social*/
+.navbar-social-icons>li>a>svg{
+	height: 30px;
+	width: 30px;
+}
+
+/*DIV SPETTACOLI*/
+
+/*Immagini*/
+.rocky-horror{
+	margin-top: 60px;
+	background-image: url("img/rocky_horror_background.jpg");
+}
+.sister-act{
+	background-image: url("img/sister_act_background.jpg");
+}
+/*Impostazioni immagine*/
+.background-image{
+	padding-top: 15rem !important;
+	width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Impostazioni rettangolo informativo*/
+.show_info{
+	width: 50%;
+	padding: 3% 0% 1% 0%;
+	color: white;
+	background-color: rgba(33, 37, 41, 0.70);	
+}
+
+.show_info>h2{
+	margin-bottom: 2rem;
+}
+
+/*Stile titolo simile a bottone*/
+.h3-spettacoli:hover{
+	background-color: white;
+	color: #212529;
+}
+.h3-spettacoli{
+	font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    max-width: 8rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #212529;
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    bottom: 0px;
+}
+
+
+/*STORIA RAGNATELA*/
+
+.info-ragnatela{
+	padding-top: 0rem !important;
+	padding-bottom: 1rem !important;
+}
+.info-ragnatela>img{
+	max-height: 120px;
+	max-width: 100%!important;
+	margin-left: auto!important;
+	margin-right: auto!important;
+}
+
+.info-ragnatela>div>p{
+	font-size: 18px;
+}
+
+
+.h3-button:hover{
+	background-color: #212529;
+	border-color:#212529;
+	color: white;
+
+}
+.h3-button{
+    max-width: 9rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #212529;
+    border-radius: 5px;
+    color: #212529;
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+/*GALLERIA*/
+.galleria{
+	background-image: url("img/galleria_background.jpg");
+	padding-top: 8rem !important;
+	padding-bottom: 8rem !important;
+}
+
+.galleria>div .info-ragnatela>div{
+	max-width: 64%;
+}
+
+.galleria>div>a>h3:hover{
+	background-color: white;
+	border-color:white;
+	color: #212529;
+}
+
+.galleria>div>a>h3{
+	background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
+/*LE COLLABORAZIONI SONO INFERNALI*/
+.collaborazioni{
+	padding-top: 0rem !important;
+	padding-bottom: 0rem !important;
+}
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 5% 20%;
+
+}
+/*PER SCHERMI SUPERIORI A 2320PX*/
+.column {
+  -ms-flex: 33%;
+  flex: 33%;
+  max-width: 33%;
+
+}
+
+.column>a>img{
+	margin-left: auto;
+	margin-right: auto;
+	width: 75%;
+}
+
+.first>a>img{
+	margin-bottom: 50%;
+}
+
+.second>a>img{
+	margin-top: 63%;
+}
+
+.third>a>img{
+	margin-bottom: 27%;
+}
+.deandre{
+	max-width: 44%;
+	margin-bottom: 15% !important ;
+}
+.olympus{
+	float: right;
+	margin-bottom: 0rem !important;
+}
+.unioneitaliana{
+	float: left;
+	height:200px;
+	max-width:100%;
+	margin-top: 28%;
+	margin-bottom: 0rem !important;
+}
+
+/* Resize collaborazioni PER SCHERMI INFERIORI A 2320PX */
+@media screen and (max-width: 2320px){
+	
+	.column {
+	  -ms-flex: 33%;
+	  flex: 33%;
+	  max-width: 33%;
+
+	}
+
+	.column>a>img{
+		margin-left: auto;
+		margin-right: auto;
+		width: 65%;
+	}
+
+	.first>a>img{
+		margin-bottom: 50%;
+	}
+
+	.second>a>img{
+		margin-top: 63%;
+	}
+
+	.third>a>img{
+		margin-bottom: 27%;
+	}
+	.deandre{
+		margin-bottom: 27% !important;
+		max-width: 34%;
+	}
+	.olympus{
+		float: right;
+		margin-bottom: 0rem !important;
+	}
+	.unioneitaliana{
+		float: left;
+		height:18%;
+		max-width:100%;
+		margin-top: 26%;
+		margin-bottom: 0rem !important;
+	}
+}
+
+/*Resize collaborazioni PER SCHERMI INFERIORI A 800PX*/
+@media screen and (max-width: 800px) {
+	
+ 	.column {
+	  -ms-flex: 33%;
+	  flex: 33%;
+	  max-width: 33%;
+
+	}
+
+	.column>a>img{
+		margin-left: auto;
+		margin-right: auto;
+		width: 65%;
+	}
+
+	.first>a>img{
+		margin-bottom: 50%;
+	}
+
+	.second>a>img{
+		margin-top: 63%;
+	}
+
+	.third>a>img{
+		margin-bottom: 27%;
+	}
+	.deandre{
+		margin-bottom: 27% !important;
+		max-width: 34%;
+	}
+	.olympus{
+		float: right;
+		margin-bottom: 0rem !important;
+	}
+	.unioneitaliana{
+		float: left;
+		height:18%;
+		max-width:100%;
+		margin-top: 26%;
+		margin-bottom: 0rem !important;
+	}
+}
+
+/* Resize bottoni e collaborazioni PER SCHERMI INFERIORI A 600PX*/
+@media screen and (max-width: 600px) {
+	.navbar{
+		padding: 0px 0px !important;
+	}
+	.navbar-brand{
+		margin-right: 0rem;
+	}
+
+	.column {
+	  -ms-flex: 100%;
+	  flex: 100%;
+	  max-width: 100%;
+	}
+
+	.column>a>img{
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		padding: 0% 0% 0% 0% !important;
+		margin: 0% 0% 0% 0% !important; 
+	}
+	.deandre{
+		max-width: 50%;
+	}
+
+	.unioneitaliana{
+		float: left;
+		height:40%;
+		max-width:100%;
+		margin-bottom: 0rem !important;
+	}
+
+}
+@media screen and (max-width: 300px){
+	.navbar-brand>img{
+		max-height: 52px;
+	}
+
+	.rocky-horror{
+		margin-top: 52px;
+	}
+}
+
+
+
+.footer{
+	padding-top: 3em;
+	padding-bottom: 1.5em;
+	text-align: center;
+	background-color: #212529;
+	color: rgba(255,255,255,.90); 
+}
+.footer-link{
+	text-decoration: underline;
+	color: rgba(255,255,255,.90); 
+}
+
+.footer-link:hover{
+	text-decoration: none;
+	color: rgba(255,255,255,.90); 
+}
